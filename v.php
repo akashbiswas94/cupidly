@@ -74,15 +74,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 <link rel="icon" type="image/png" href="icon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Be My Valentine? 💖</title>
-    <meta property="og:title" content="Be My Valentine? 💖">
-    <meta property="og:description" content="Someone spent way too much time making this just for you. Don't leave them on read, that’s just rude. 🙄💖">
-    <meta property="og:image" content="https://yesly.online/social-preview.jpg"> <meta property="og:url" content="https://yesly.online">
-    <meta property="og:type" content="website">
+<meta property="og:title" content="Be My Valentine? 💖">
+<meta property="og:description" content="Someone spent way too much time making this just for you. Don't leave them on read, that’s just rude. 🙄💖">
+<meta property="og:image" content="https://yesly.online/proposal.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://yesly.online/v.php?c=<?= $code ?>">
+<meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Be My Valentine? 💖">
     <meta name="twitter:description" content="Someone spent way too much time making this just for you. Don't leave them on read, that’s just rude. 🙄💖">
-    <meta name="twitter:image" content="https:/yesly.online/social-preview.jpg">
+    <meta name="twitter:image" content="https://yesly.online/proposal.png">
 <style>
 :root { --pink-gradient: linear-gradient(135deg, #ff4d88, #ff85a2); --text-color: #7d0633; }
 * { box-sizing: border-box; }

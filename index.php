@@ -43,24 +43,22 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="icon.ico">
-    <title>Yesly - Create Your Valentine 💖</title>
-    <meta property="og:title" content="A Secret Message for <?= htmlspecialchars($p['receiver_name']) ?> 💌">
+    
+    <title>Yesly | Create Your Interactive Valentine's Proposal</title>
+    <meta property="og:title" content="Be My Valentine? 💖">
     <meta property="og:description" content="Someone spent way too much time making this just for you. Don't leave them on read, that’s just rude. 🙄💖">
-
-    <meta property="og:image" content="http://yesly.online/proposal.png">
+    <meta property="og:image" content="https://yesly.online/proposal.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:type" content="image/png">
-
-    <meta property="og:url" content="http://yesly.online/v.php?c=<?= $code ?>">
+    <meta property="og:url" content="https://yesly.online/">
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Be My Valentine? 💖">
     <meta name="twitter:description" content="Someone spent way too much time making this just for you. Don't leave them on read, that’s just rude. 🙄💖">
-    <meta name="twitter:image" content="https:/yesly.online/proposal.png">
-    <style>
+    <meta name="twitter:image" content="https://yesly.online/proposal.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand:wght@400;600&display=swap" rel="stylesheet"><style>
         :root {
             --primary: #ff4d88;
             --primary-hover: #e63977;
