@@ -179,7 +179,7 @@ th {
 <body>
 
 <div class="header">
-    <h1 style="color: #d81b60;">Love Lab Intelligence</h1>
+    <h1 style="color: #d81b60;">Yesly- Intelligence</h1>
     <a href="master_logs.php" style="margin-right: 20px; color: #ff4d88; font-weight: bold; text-decoration: none;">🌐 Global Feed</a>
     <a href="?logout=1" class="logout-btn">Logout 🚪</a>
 </div>

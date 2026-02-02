@@ -21,7 +21,8 @@ if (isset($_POST['login'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Admin Login | Love Lab</title>
+    <link rel="icon" type="image/png" href="icon.ico">
+    <title>Admin Login | Yesly</title>
     <style>
         /* Base styles */
 body {

@@ -32,6 +32,7 @@ $logs = $l_stmt->get_result();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icon.ico">
     <title>Intelligence Report | <?= htmlspecialchars($proposal['receiver_name']) ?></title>
     <style>
         :root {

@@ -22,6 +22,7 @@ $logs = $conn->query($query);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="icon.ico">
     <title>Global Traffic Feed 📡</title>
     <style>
         body {
