@@ -58,7 +58,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta name="twitter:description" content="Someone spent way too much time making this just for you. Don't leave them on read, that’s just rude. 🙄💖">
     <meta name="twitter:image" content="https://yesly.online/proposal.png">
 
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand:wght@400;600&display=swap" rel="stylesheet"><style>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
         :root {
             --primary: #ff4d88;
             --primary-hover: #e63977;
