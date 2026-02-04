@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Be My Valentine? 💖">
     <meta name="twitter:description" content="Someone spent way too much time making this just for you. Don't leave them on read, that’s just rude. 🙄💖">
-    <meta name="twitter:image" content="https://yesly.online/proposal.png">
+    <meta name="twitter:image" content="https:/yesly.online/social-preview.jpg">
 <style>
 :root { --pink-gradient: linear-gradient(135deg, #ff4d88, #ff85a2); --text-color: #7d0633; }
 * { box-sizing: border-box; }
@@ -172,7 +172,7 @@ canvas#fireworks { position: fixed; inset: 0; z-index: 2; pointer-events: none; 
     <h2 style="font-size: 2rem;">Wrong Answer.</h2>
     <p id="failMsg" style="font-size: 1.2rem; margin-bottom: 30px; line-height: 1.5; max-width: 400px;"></p>
     <div style="display:flex; flex-direction:column; gap:15px; width:100%; max-width:250px;">
-        <button onclick="closeFail()" style="background:white; color:#7d0633; border:none; padding:12px; border-radius:12px; cursor:pointer; font-weight:bold;">Try Again 🔄</button>
+        <button onclick="closeFail()" style="background:white; color:#7d0633; border:none; padding:12px; border-radius:12px; cursor:pointer; font-weight:bold;">Try Again</button>
         <button onclick="abandonMission()" style="background:rgba(255,255,255,0.2); color:white; border:1px solid white; padding:10px; border-radius:12px; cursor:pointer;">Give up & Click 'YES'!</button>
     </div>
 </div>
